@@ -1,0 +1,65 @@
+<!Doctype html>
+<html lang="en">
+  <head>
+
+    <!-- FireStore -->
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase-firestore.js"></script>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Prueba</title>
+  </head>
+  <body class="box">
+    <div class="container">
+<br><br>
+        <h1 align="center" style="color: #1A372D" class="font-italic"><b>Agregar Menu Cafeteria Central</b></h1><br>
+         
+        
+        <input type="text" id="Principio" placeholder="Principio" class="form-control my-2">
+        <input type="text" id="Sobremesa" placeholder="Sobremesa" class="form-control my-2">     
+        <input type="text" id="Ensalada" placeholder="Ensalada" class="form-control my-2">
+        <input type="text" id="Jugo" placeholder="Bebida" class="form-control my-2">
+        <input type="text" id="Precio" placeholder="Precio" class="form-control my-2">
+        <input type="text" id="Imagen" placeholder="Ingrese URL" class="form-control my-2">
+    
+        <button  type="button" class="btn btn-success" onclick="guardarMenu()" id="boton"> Agregar</button>
+        <button  type="button" class="btn btn-primary" onclick="location.href='http://localhost/P/'" id="boton"> Volver</button>
+<br><br>
+        <table class="table table-striped" >
+  <thead align="center">
+    <tr>
+
+      <th scope="col">Id</th>
+      <th scope="col">Principio</th>
+      <th scope="col">Sobremesa</th>
+      <th scope="col">Ensalada</th>
+      <th scope="col">Jugo</th>
+      <th scope="col">Precio</th>
+      <th scope="col">Imagen</th>
+      <th scope="col">Editar</th>
+      <th scope="col">Eliminar</th>
+
+      </td>
+    </tr>
+  </thead>
+  <tbody id="tabla" align="center">
+
+  </tbody>
+</table>
+
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+----------Para ejecutar el crud desde la parte de administador-------------
+
+La carpeta "P" UBICARLA EN EL DIRECTORIO DE xamp/htdocs/
+Pegada la carpeta en htdocs iniciar mysql y apache en el panel de control del Xamp
+
+Para verificar y ver la interfaz en la barra del navegador escribir: localhost/P/
+Los rediccionara al inicio
+
+------------Para Ver el Contenido del inicio--------------
+
+En la interfaz inicial presionan el boton del navbar que dice registrar
+Luego escriben un email y una contraseña validos
+Posteriermente le dan Registrar (Boton Verde) y les llegara un mensaje de verificacion de correo
+Ingresan a su correo precionan el link de verificacion y listo
+Con eso podras ingresar con tu email y contraseña desde la pantalla de inicio

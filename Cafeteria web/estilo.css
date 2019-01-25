@@ -1,0 +1,10 @@
+body {
+  background: #f2f2f2;
+  text-align: center;
+}
+
+.box {
+  background: linear-gradient(to right, #71D8A6, #AEBE41);  
+
+padding-top: 60px;
+}
